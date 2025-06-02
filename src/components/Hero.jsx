@@ -12,7 +12,7 @@ const Hero = () => {
     return (
         <section className='bg-[#1C2430]   text-white'>
             <section class="relative mx-auto">
-                <img src={logo} className="absolute  object-cover" alt="nav-bg-img" />
+                <img src={logo} className="absolute  object-cover " alt="nav-bg-img" />
 
                 <div className="max-w-[1140px] mx-auto px-4">
                     <Navbar/>

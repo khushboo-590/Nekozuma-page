@@ -7,11 +7,11 @@ import TwiiterIcon from '../assets/images/png/twitter.png'
 
 const Footer = () => {
     return (
-        <footer className="bg-[#245AAB] relative mx-auto py-9 ">
+        <footer className="bg-[#245AAB] relative mx-auto py-9  ">
             <div className="flex justify-center items-center">
-                <a href="#" className="ff-1 fw-400 text-[21px] leading-[25px] text-white tracking-wide mt-11 no-underline z-10">
+                <a href="#" className="ff-1 fw-400 text-[21px] leading-[25px] text-white tracking-wide  no-underline z-10">
                     NEKOZUMA</a></div>
-            <div className="flex justify-center items-center mt-3 gap-6">
+            <div className="flex justify-center items-center mt-6 gap-6">
                 <a href="/"> <img src={DiscordIcon} alt="social-icon" className="icon" /></a>
                 <a href="/"> <img src={TwiiterIcon} alt="social-icon" className="icon" /></a>
             </div>

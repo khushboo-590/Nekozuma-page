@@ -15,7 +15,14 @@ import silder5 from '../assets/images/png/silder5.png'
 import silder6 from '../assets/images/png/silder6.png'
 import silder7 from '../assets/images/png/silder6.png'
 import silder8 from '../assets/images/png/silder8.png'
+import DiscordIcon from '../assets/images/png/discord.png';
 
+
+
+
+
+export const images1 = [silder1, silder2, silder3, silder4, silder3, silder4];
+export const images2 = [silder5, silder6, silder7, silder8, silder6, silder7];
 
 export const TeamData = [
     {
@@ -96,6 +103,10 @@ export const TeamData = [
 ]
 
 
-export const images1 = [silder1, silder2, silder3, silder4];
-
-export const images2 = [silder5, silder6, silder7, silder8];
+export const navLinks = [
+    { label: 'Overview', href: '/' },
+    { label: 'Story', href: '/' },
+    { label: 'Team', href: '/' },
+    { icon: DiscordIcon, href: '/' },
+    { icon: TwiiterIcon, href: '/' },
+];
