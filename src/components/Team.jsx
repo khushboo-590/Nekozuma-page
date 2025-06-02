@@ -1,23 +1,25 @@
 import React from 'react'
 import { TeamData } from '../utils/helper'
+import Customheading from './common/Customheading';
+
 
 const Team = () => {
   return (
       <section className='bg-[#1C2430]'>
           <div class="container mx-auto py-[61px] max-w-[1140px] ">
               <div class="flex items-center justify-center flex-col">
-                  <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='mb-14' width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <line y1="0.5" x2="164" y2="0.5" stroke="#3586FF" />
                   </svg>
-                  <h4 class="ff-1  text-[43px] leading-[27px] text-[#3586FF] font-normal mt-14">Team</h4>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-[20px] sm:mt-[36px] ">
+                  <Customheading heading="Team" />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
                       {TeamData.map((item, index) => (
-                          <div key={index} className=" p-1">
+                          <div key={index} className=" p-">
                               <div className="  text-center">
                                   <img
                                       src={item.image}
                                       alt={item.title}
-                                      className=" w-[290px] sm:w-[202px]  h-[198px] sm:h[202px]  object-cover "
+                                      className=" w-[290px] sm:w-[202px]  h-[198px] sm:h[202px]  object-cover mx-auto mt-[20px] sm:mt-[36px] "
                                   />
                                   <h5 className="text-[24px] leading-[27px] text-[#3586FF] font-normal mt-6 mb-2 ff-1">
                                       {item.title}

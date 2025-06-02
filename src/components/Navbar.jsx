@@ -18,7 +18,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex items-center gap-8 m-0 list-none justify-center">
                     {navLinks.map((link, index) => (
                         <li key={index}>
-                                <a href={link.href} className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">
+                                <a href={link.href} className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white hover:text-[#3586FF] transition-colors duration-300">
                                     {link.label}
                                 </a>
                                 <a >

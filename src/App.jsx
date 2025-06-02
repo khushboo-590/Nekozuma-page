@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Hero />
-      {/* <Silder/> */}
+      <Silder/>
       <Story/>
       <Team />
       <Footer/>

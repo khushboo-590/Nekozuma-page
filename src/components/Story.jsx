@@ -1,14 +1,13 @@
 import React from 'react';
 import lionImg from '../assets/images/png/cartoon2.png';
+import Customheading from './common/Customheading';
 
 const Story = () => {
     return (
         <section className="bg-[#1C2430] text-white pt-12">
             <div className="max-w-[1140px] mx-auto px-4">
                 <div className="flex justify-center items-center ">
-                    <h4 className="ff-1 text-[43px] leading-[49px] font-normal text-[#3586FF]">
-                        Story
-                    </h4>
+                    <Customheading heading="Story"/>
                 </div>
                 <div className="max-w-[888px] mx-auto pt-6">
                     <p className="text-center text-[#D4E5FF] ff-2 text-base leading-[21px] ">

@@ -15,8 +15,8 @@ const Footer = () => {
                 <a href="/"> <img src={DiscordIcon} alt="social-icon" className="icon" /></a>
                 <a href="/"> <img src={TwiiterIcon} alt="social-icon" className="icon" /></a>
             </div>
-            <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0 w-[210px]  md:w-[355px] " />
-            <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0 w-[210px] md:w-[275px]" />
+            <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0  " />
+            <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0 " />
         </footer>
     )
 }
