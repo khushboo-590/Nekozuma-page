@@ -15,7 +15,7 @@ const Hero = () => {
               <img src={logo} className="absolute  object-cover" alt="nav-bg-img" />
             
               <div class="max-w-[1140px] mx-auto px-4">
-                  <Navbar/>
+                  {/* <Navbar/> */}
 
                   <div className="mt-[164px] z-10 relative">
                       <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
