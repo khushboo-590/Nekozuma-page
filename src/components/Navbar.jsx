@@ -11,13 +11,13 @@ const Navbar = () => {
                 </a>
                 <ul id="name" className="flex items-center gap-8 m-0 list-none justify-center">
                     <li>
-                        <a href="/" className="no-underline font-sans font-normal text-[16px] leading-[21px] text-white">Overview</a>
+                        <a href="/" className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">Overview</a>
                     </li>
                     <li>
-                        <a href="/" className="no-underline font-sans font-normal text-[16px] leading-[21px] text-white">Story</a>
+                      <a href="/" className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">Story</a>
                     </li>
                     <li>
-                        <a href="/" className="no-underline font-sans font-normal text-[16px] leading-[21px] text-white">Team</a>
+                      <a href="/" className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">Team</a>
                     </li>
                     <li>
                       <a href="/"><img src={DiscordIcon} className="w-6 h-6" alt="social-icon" /></a>

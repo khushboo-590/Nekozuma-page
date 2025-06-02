@@ -21,11 +21,11 @@ const Hero = () => {
                       <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <line y1="0.5" x2="164" y2="0.5" stroke="#3586FF" />
                       </svg>
-                      <h1 class="font-sans text-[#3586FF] text-[64px] leading-[73px] font-normal ">NEKOZUMA</h1>
-                      <p class="max-w-[502px] font-sans font-normal text-[16px] leading-[21px] text-[#E5E5E5] pt-1 m-0">
+                      <h1 class="ff-1 text-[#3586FF] text-[64px] leading-[73px] font-normal ">NEKOZUMA</h1>
+                      <p class="max-w-[502px] ff-2 font-normal text-[16px] leading-[21px] text-[#E5E5E5] pt-1 m-0">
                           The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs.
                       </p>
-                      <button className="mt-[43px] mb-[144px] bg-[#245AAB] text-white font-sans font-normal text-[16px] leading-[21px] border-0 py-2 px-6 rounded-[9px]">Connect Wallet</button>
+                      <button className="mt-[43px] mb-[144px] bg-[#245AAB] text-white ff-2 font-normal text-[16px] leading-[21px] border-0 py-2 px-6 rounded-[9px]">Connect Wallet</button>
                   </div>
               </div>
 
