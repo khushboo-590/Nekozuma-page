@@ -7,6 +7,14 @@ import img6 from '../assets/images/png/img6.png'
 import img7 from '../assets/images/png/img7.png'
 import img8 from '../assets/images/png/img8.png'
 import TwiiterIcon from '../assets/images/png/twitter.png'
+import silder1 from '../assets/images/png/silde1.png'
+import silder2 from '../assets/images/png/silder2.png'
+import silder3 from '../assets/images/png/silder3.png'
+import silder4 from '../assets/images/png/silder4.png'
+import silder5 from '../assets/images/png/silder5.png'
+import silder6 from '../assets/images/png/silder6.png'
+import silder7 from '../assets/images/png/silder6.png'
+import silder8 from '../assets/images/png/silder8.png'
 
 
 export const TeamData = [
@@ -14,10 +22,10 @@ export const TeamData = [
         title: "Founder",
         content: "Jedi Trinupab ",
         image: img1,
-        discription:"However at every junction in time, there is always a darkness that is waiting to overthrow ",
-      img: 
+        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        img:
             TwiiterIcon,
-        
+
     },
     {
         title: "Co Founder",
@@ -25,9 +33,9 @@ export const TeamData = [
         image: img2,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
-        img: 
-           TwiiterIcon,
-    
+        img:
+            TwiiterIcon,
+
     },
     {
         title: "Artist",
@@ -35,19 +43,19 @@ export const TeamData = [
         image: img3,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
-        img: 
-        TwiiterIcon ,
-        
-    },
-        {
-            title: "Development",
-            content: "Karmic Labs ",
-            image: img4,
-            discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        img:
+            TwiiterIcon,
 
-        img: 
-             TwiiterIcon,
-            
+    },
+    {
+        title: "Development",
+        content: "Karmic Labs ",
+        image: img4,
+        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+
+        img:
+            TwiiterIcon,
+
     },
     {
         title: "Position",
@@ -86,3 +94,8 @@ export const TeamData = [
 
     },
 ]
+
+
+export const images1 = [silder1, silder2, silder3, silder4];
+
+export const images2 = [silder5, silder6, silder7, silder8];

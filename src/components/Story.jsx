@@ -24,7 +24,7 @@ const Story = () => {
                 </div>
             </div>
                 <div className="flex  justify-center mt-[58px]">
-                    <img src={lionImg} className="w-full  object-cover" alt="lion-img" />
+                    <img src={lionImg} className="w-full  object-cover h-[200px] md:h-[250px] lg:h-[357px]" alt="lion-img" />
                 </div>
         </section>
     );
