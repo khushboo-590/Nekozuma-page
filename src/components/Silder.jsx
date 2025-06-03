@@ -11,7 +11,6 @@ const Silder = () => {
                 modules={[Autoplay]}
                 spaceBetween={0}
                 slidesPerView={5}
-                // slidesPerGroup={1}
                 loop={true}
                 autoplay={{
                     delay: 0,
@@ -21,7 +20,7 @@ const Silder = () => {
                 speed={5000}>
                 {images1.map((img, i) => (
                     <SwiperSlide key={i}>
-                        <img src={img} alt="silder" />
+                        <img src={img} alt="silder"  />
                     </SwiperSlide>
                 ))}
             </Swiper>
@@ -29,7 +28,6 @@ const Silder = () => {
                 modules={[Autoplay]}
                 spaceBetween={0}
                 slidesPerView={5}
-                // slidesPerGroup={1}
                 loop={true}
                 autoplay={{
                     delay: 0,

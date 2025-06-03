@@ -15,15 +15,22 @@ const Hero = () => {
                 <img src={logo} className="absolute  object-cover " alt="nav-bg-img" />
                 <div className="max-w-[1140px] mx-auto px-4">
                     <Navbar/>
-                    <div className="  mt-[100px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
-                        <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line y1="0.5" x2="164" y2="0.5" stroke="#3586FF" />
-                        </svg>
-                        <h1 className="ff-1 text-[#3586FF] text-[55px] sm:text-[64px] leading-[73px] font-normal">NEKOZUMA</h1>
-                        <p className="md:max-w-[502px] ff-2 font-normal text-[16px] leading-[21px] text-[#D4E5FF] pt-1 m-0">
+                    <div className="mt-[100px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
+                        <div className="flex justify-center sm:justify-start">
+                            <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="164" y2="0.5" stroke="#3586FF" />
+                            </svg>
+                        </div>
+
+                        <h1 className="ff-1 text-[#3586FF] text-[55px] sm:text-[64px] leading-[73px] font-normal  text-center sm:text-left">NEKOZUMA</h1>
+                        <p className="md:max-w-[502px] ff-2 font-normal text-[16px] leading-[21px] text-[#D4E5FF] pt-1 m-0 text-center sm:text-left">
                             The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs.
                         </p>
-                        <button className="mt-[43px] mb-[40px] lg:mb-[144px] bg-[#245AAB] text-white ff-2 font-normal text-[16px] leading-[21px] border-0 py-2 px-6 rounded-[9px] hover:bg-white hover:text-[#245AAB]">Connect Wallet</button>
+                        <div className="flex justify-center sm:justify-start">
+                            <button className="mt-[43px] mb-[40px] lg:mb-[144px] bg-[#245AAB] text-white ff-2 font-normal text-[16px] leading-[21px] border-0 py-2 px-6 rounded-[9px] hover:bg-white hover:text-[#245AAB]">
+                                Connect Wallet
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <img src={cartoon} className="z-10 relative cartoon-img right-0 bottom-0 lg:absolute mx-auto" alt="cartoon-img" />

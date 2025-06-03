@@ -6,7 +6,7 @@ import img5 from '../assets/images/png/img5.png'
 import img6 from '../assets/images/png/img6.png'
 import img7 from '../assets/images/png/img7.png'
 import img8 from '../assets/images/png/img8.png'
-import TwiiterIcon from '../assets/images/png/twitter.png'
+import TwiiterIcon from '../assets/images/svg/tw.svg'
 import silder1 from '../assets/images/png/silde1.png'
 import silder2 from '../assets/images/png/silder2.png'
 import silder3 from '../assets/images/png/silder3.png'
@@ -15,7 +15,7 @@ import silder5 from '../assets/images/png/silder5.png'
 import silder6 from '../assets/images/png/silder6.png'
 import silder7 from '../assets/images/png/silder6.png'
 import silder8 from '../assets/images/png/silder8.png'
-import DiscordIcon from '../assets/images/png/discord.png';
+import DiscordIcon from '../assets/images/svg/discord 1.svg';
 
 
 
@@ -30,8 +30,7 @@ export const TeamData = [
         content: "Jedi Trinupab ",
         image: img1,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -39,9 +38,7 @@ export const TeamData = [
         content: "Suptoshi",
         image: img2,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -49,9 +46,7 @@ export const TeamData = [
         content: "Korn",
         image: img3,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -59,9 +54,7 @@ export const TeamData = [
         content: "Karmic Labs ",
         image: img4,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -69,8 +62,7 @@ export const TeamData = [
         content: "Jedi Trinupab ",
         image: img5,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -78,8 +70,7 @@ export const TeamData = [
         content: "Jedi Trinupab ",
         image: img6,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -87,8 +78,7 @@ export const TeamData = [
         content: "Jedi Trinupab ",
         image: img7,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
     {
@@ -96,8 +86,7 @@ export const TeamData = [
         content: "Jedi Trinupab ",
         image: img8,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        img:
-            TwiiterIcon,
+        icon:TwiiterIcon,
 
     },
 ]
