@@ -46,7 +46,7 @@ const Navbar = () => {
                             className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">{link.label}</a>
                         <a href="/"><img
                             src={link.icon}
-                            className="mt-2 transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a></li>
+                            className="mt-2 transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer " /></a></li>
                 ))}
             </div>
         </nav>

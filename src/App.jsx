@@ -5,6 +5,7 @@ import Story from './components/Story'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import Silder from './components/Silder'
+import BackToTop from './components/BackToTop'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Silder/>
       <Story/>
       <Team />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </>
   )
 }

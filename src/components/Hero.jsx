@@ -14,7 +14,7 @@ const Hero = () => {
         <section className='bg-[#1C2430]   text-white'>
             <div class="relative mx-auto ">
                 <img src={logo} className="absolute  object-cover " alt="nav-bg-img" />
-                <div className="max-w-[1140px] mx-auto px-4">
+                <div className="max-w-[888px] mx-auto px-4">
                     <Navbar/>
                     <div className="mt-[100px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
                         <div className="flex justify-center lg:justify-start">

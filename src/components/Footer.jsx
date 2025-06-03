@@ -20,7 +20,7 @@ const Footer = () => {
                     <img
                         src={DiscordIcon}
                         alt="discord-icon"
-                        className="transform hover:scale-110 transition duration-300 ease-in-out cursor-pointer" />
+                        className="transform hover:scale-110 transition duration-300 ease-in-out cursor-pointer w-9" />
                 </a>
                 <a
                     href="https://twitter.com/YOUR_TWITTER_HANDLE"
@@ -29,12 +29,12 @@ const Footer = () => {
                     <img
                         src={TwitterIcon}
                         alt="twitter-icon"
-                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"
+                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer w-9"
                     />
                 </a>
             </div>
-            <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0 hidden md:block  " />
-            <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0  hidden md:block " />
+            <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0 hidden lg:block  " />
+            <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0  hidden lg:block " />
         </footer>
     )
 }
