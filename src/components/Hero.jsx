@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import line2 from '../assets/images/svg/Line 2.svg' 
 import cartoon from '../assets/images/png/cartoon.png'
 import logo from '../assets/images/svg/logo.svg'
 import layer1 from '../assets/images/png/layer1.png'
@@ -17,9 +18,8 @@ const Hero = () => {
                     <Navbar/>
                     <div className="mt-[100px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
                         <div className="flex justify-center lg:justify-start">
-                            <svg width="164" height="1" viewBox="0 0 164 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="164" y2="0.5" stroke="#3586FF" />
-                            </svg>
+                                              <img src={line2} alt="line" className='' />
+                            
                         </div>
 
                         <h1 className="ff-1 text-[#3586FF] text-[55px] sm:text-[64px] leading-[73px] font-normal  text-center lg:text-left">NEKOZUMA</h1>

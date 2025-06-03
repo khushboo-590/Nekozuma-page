@@ -12,9 +12,7 @@
 .ff-1 {
   font-family: 'Franklin Gothic Heavy';
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 @keyframes scrollLeft {
   from {

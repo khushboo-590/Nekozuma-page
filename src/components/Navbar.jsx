@@ -12,8 +12,7 @@ const Navbar = () => {
     return (
         <nav className="w-full py-[30px]">
             <div className="flex items-center justify-between w-full">
-                <a
-                    href="/"
+                <a href="/"
                     className="z-10 no-underline font-sans font-normal text-[21px] leading-[25px] tracking-wide text-white opacity-0">
                     NEKOZUMA</a>
                 <div className="hidden md:flex items-center gap-8 m-0 list-none justify-center">
@@ -38,7 +37,6 @@ const Navbar = () => {
                     ></span>
                 </div>
             </div>
-
             <div
                 className={`md:hidden flex flex-col items-center justify-center fixed z-29 top-0 right-0 w-full h-screen space-y-6 text-white bg-[#1C2430] transform transition-transform duration-500 ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
                 {navLinks.map((link) => (
@@ -46,11 +44,8 @@ const Navbar = () => {
                         <a
                             href={link.href}
                             onClick={() => setMenuOpen(false)}
-                            className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">
-                            {link.label}
-                        </a>
-                        <a href="/">
-                            <img
+                            className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">{link.label}</a>
+                        <a href="/"><img
                                 src={link.icon}
                                 className="mt-2 transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"
                             />

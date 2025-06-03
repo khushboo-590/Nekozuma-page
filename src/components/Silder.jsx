@@ -4,7 +4,7 @@ import { images1,images2} from "../utils/helper";
 
 const Slider = () => {
     return (
-        <section id="overview">
+        <section id="overview" className="bg-[#1C2430] ">
         <div className="overflow-hidden mx-auto max-w-[1920px]">
             <div className="flex slider-left">
                 {images1.map((src, index) => (
