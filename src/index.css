@@ -41,3 +41,6 @@
 .slider-right {
   animation: scrollRight 18s linear infinite;
 }
+html {
+  scroll-behavior: smooth;
+}
