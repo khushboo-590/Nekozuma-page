@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'Franklin Gothic Heavy';
-  src: url(/assets/font/FranklinGothic-Heavy\ -\ Franklin\ Gothic\ Heavy\ -\ Regular.ttf);
+  src: url("/assets/font/FranklinGothic-Heavy\ -\ Franklin\ Gothic\ Heavy\ -\ Regular.ttf");
 }
-.ff-2 {
+.font-family-sarabun {
   font-family: "Sarabun", sans-serif;
 }
-.ff-1 {
+.font-family-franklin {
   font-family: 'Franklin Gothic Heavy';
 }
 

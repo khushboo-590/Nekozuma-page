@@ -4,15 +4,15 @@ import Hero from './components/Hero'
 import Story from './components/Story'
 import Team from './components/Team'
 import Footer from './components/Footer'
-import Silder from './components/Silder'
-import BackToTop from './components/BackToTop'
+import BackToTop from './components/common/BackToTop'
+import CustomSlider from './components/CustomSilder'
 
 function App() {
 
   return (
     <>
       <Hero />
-      <Silder/>
+      <CustomSlider/>
       <Story/>
       <Team />
       <Footer />

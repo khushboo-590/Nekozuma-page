@@ -1,12 +1,12 @@
-import img1 from '../assets/images/png/img1.png'
-import img2 from '../assets/images/png/img2.png'
-import img3 from '../assets/images/png/img3.png'
-import img4 from '../assets/images/png/img4.png'
-import img5 from '../assets/images/png/img5.png'
-import img6 from '../assets/images/png/img6.png'
-import img7 from '../assets/images/png/img7.png'
-import img8 from '../assets/images/png/img8.png'
-import TwiiterIcon from '../assets/images/svg/tw.svg'
+import teamImg1 from '../assets/images/png/img1.png'
+import teamImg2 from '../assets/images/png/img2.png'
+import teamImg3 from '../assets/images/png/img3.png'
+import teamImg4 from '../assets/images/png/img4.png'
+import teamImg5 from '../assets/images/png/img5.png'
+import teamImg6 from '../assets/images/png/img6.png'
+import teamImg7 from '../assets/images/png/img7.png'
+import teamImg8 from '../assets/images/png/img8.png'
+import twitterIcon from '../assets/images/svg/tw.svg'
 import silder1 from '../assets/images/png/silde1.png'
 import silder2 from '../assets/images/png/silder2.png'
 import silder3 from '../assets/images/png/silder3.png'
@@ -18,84 +18,75 @@ import silder8 from '../assets/images/png/silder8.png'
 import DiscordIcon from '../assets/images/svg/discord 1.svg';
 
 
+export const sildeImg1 = [silder1, silder2, silder3, silder4, silder3, silder4, silder1, silder2, silder4, silder3,];
+export const sildeImg2 = [silder5, silder6, silder7, silder8, silder6, silder7, silder5, silder8, silder6, silder7,];
 
+export const twitter = twitterIcon;
 
-
-export const images1 = [silder1, silder2, silder3, silder4, silder3, silder4,silder1, silder2,];
-export const images2 = [silder5, silder6, silder7, silder8, silder6, silder7,silder5, silder8,];
-
-export const TeamData = [
+export const teamData = [
     {
         title: "Founder",
         content: "Jedi Trinupab ",
-        image: img1,
+        image: teamImg1,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Co Founder",
         content: "Suptoshi",
-        image: img2,
+        image: teamImg2,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Artist",
         content: "Korn",
-        image: img3,
+        image: teamImg3,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Development",
         content: "Karmic Labs ",
-        image: img4,
+        image: teamImg4,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
-        image: img5,
+        image: teamImg5,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
-        image: img6,
+        image: teamImg6,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
-        image: img7,
+        image: teamImg7,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
-        image: img8,
+        image: teamImg8,
         discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
-        icon:TwiiterIcon,
 
     },
 ]
 
 
 export const navLinks = [
-    { id: 'overview', label: 'Overview', href: '/' },
-    { id: 'story', label: 'Story', href: '/' },
-    { id: 'team', label: 'Team', href: '/' },
-    { id: 'discord', icon: DiscordIcon, href: '/' },
-    { id: 'twitter', icon: TwiiterIcon, href: '/' },
+    { id: 'overview', title: 'Overview',  },
+    { id: 'story', title: 'Story'  },
+    { id: 'team', title: 'Team' },
+    { id: 'discord', icon: DiscordIcon },
+    { id: 'twitter', icon: twitterIcon },
   ];
