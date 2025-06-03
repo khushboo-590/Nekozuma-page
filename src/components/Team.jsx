@@ -1,5 +1,6 @@
 import React from 'react'
 import { TeamData } from '../utils/helper'
+import { Link } from 'react-router-dom'; 
 import Customheading from './common/Customheading';
 
 
@@ -14,8 +15,8 @@ const Team = () => {
                   <Customheading heading="Team" />
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
                       {TeamData.map((item, index) => (
-                          <div key={index} className=" p-">
-                              <div className="  text-center">
+                          <div key={index} className=" p-1">
+                              <div className="text-center">
                                   <img
                                       src={item.image}
                                       alt={item.title}
@@ -27,10 +28,10 @@ const Team = () => {
                                   <p className="text-[14px] leading-[18px] text-[#D4E5FF] font-normal mb-2 ff-2">
                                       {item.content}
                                   </p>
-                                  <p className="text-[14px] leading-[18px] text-[#D4E5FF] font-normal mb-2 ff-2 max-w-[202px] mx-auto">
+                                  <p className="text-[14px] leading-[18px] text-[#D4E5FF] font-normal mb-2 ff-2  max-w-[202px] mx-auto">
                                       {item.discription}
                                   </p>
-                                  <img src={item.img} alt="social" className="mx-auto cursor-pointer" />
+                                 <Link to ="/" ><img src={item.img} alt="social" className="mx-auto cursor-pointer" /></Link>
                               </div>
                           </div>
                       ))}

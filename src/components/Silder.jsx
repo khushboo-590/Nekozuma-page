@@ -11,7 +11,7 @@ const Silder = () => {
                 modules={[Autoplay]}
                 spaceBetween={0}
                 slidesPerView={5}
-                slidesPerGroup={1}
+                // slidesPerGroup={1}
                 loop={true}
                 autoplay={{
                     delay: 0,
@@ -29,7 +29,7 @@ const Silder = () => {
                 modules={[Autoplay]}
                 spaceBetween={0}
                 slidesPerView={5}
-                slidesPerGroup={1}
+                // slidesPerGroup={1}
                 loop={true}
                 autoplay={{
                     delay: 0,
