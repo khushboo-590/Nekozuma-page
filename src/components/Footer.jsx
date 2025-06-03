@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#245AAB] relative mx-auto py-9  ">
+        <footer id="discord" className="bg-[#245AAB] relative mx-auto py-9  ">
             <div className="flex justify-center items-center">
                 <Link to="/" className="ff-1 fw-400 text-[21px] leading-[25px] text-white tracking-wide  no-underline z-10">
                     NEKOZUMA</Link></div>

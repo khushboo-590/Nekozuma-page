@@ -4,7 +4,7 @@ import Customheading from './common/Customheading';
 
 const Story = () => {
     return (
-        <section className="bg-[#1C2430] text-white pt-12">
+        <section id="story" className="bg-[#1C2430] text-white pt-12">
             <div className="max-w-[1140px] mx-auto px-4">
                 <div className="flex justify-center items-center ">
                     <Customheading heading="Story"/>

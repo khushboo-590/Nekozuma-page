@@ -7,7 +7,7 @@ import Customheading from './common/Customheading';
 
 const Team = () => {
   return (
-      <section className='bg-[#1C2430]'>
+      <section id="team" className='bg-[#1C2430]'>
           <div class="container mx-auto py-[61px] max-w-[1140px] ">
               <div class="flex items-center justify-center flex-col">
                   <img src={line2} alt="line" className='mb-14' />
@@ -29,7 +29,6 @@ const Team = () => {
                           </div>
                       ))}
                   </div>
-
               </div>
           </div>
 

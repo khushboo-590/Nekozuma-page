@@ -21,8 +21,8 @@ import DiscordIcon from '../assets/images/svg/discord 1.svg';
 
 
 
-export const images1 = [silder1, silder2, silder3, silder4, silder3, silder4];
-export const images2 = [silder5, silder6, silder7, silder8, silder6, silder7];
+export const images1 = [silder1, silder2, silder3, silder4, silder3, silder4,silder1, silder2,];
+export const images2 = [silder5, silder6, silder7, silder8, silder6, silder7,silder5, silder8,];
 
 export const TeamData = [
     {
@@ -93,9 +93,9 @@ export const TeamData = [
 
 
 export const navLinks = [
-    { label: 'Overview', href: '/' },
-    { label: 'Story', href: '/' },
-    { label: 'Team', href: '/' },
-    { icon: DiscordIcon, href: '/' },
-    { icon: TwiiterIcon, href: '/' },
-];
+    { id: 'overview', label: 'Overview', href: '/' },
+    { id: 'story', label: 'Story', href: '/' },
+    { id: 'team', label: 'Team', href: '/' },
+    { id: 'discord', icon: DiscordIcon, href: '/' },
+    { id: 'twitter', icon: TwiiterIcon, href: '/' },
+  ];

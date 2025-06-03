@@ -12,14 +12,14 @@ const Navbar = () => {
     return (
         <nav className="w-full py-[30px]">
             <div className="flex items-center justify-between w-full">
-                <Link
+                <Link 
                     to="/"
                     className="z-10 no-underline font-sans font-normal text-[21px] leading-[25px] tracking-wide text-white opacity-0">
                     NEKOZUMA
                 </Link>
                 <div className="hidden md:flex items-center gap-8 m-0 list-none justify-center">
-                    {navLinks.map((link, index) => (
-                        <li key={index} className="flex items-center gap-2">
+                    {navLinks.map((link) => (
+                        <li key={link.id} className="flex items-center gap-2">
                             <Link
                                 to={link.href}
                                 className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white hover:text-[#3586FF] transition-colors duration-300">
@@ -36,8 +36,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={`md:hidden flex flex-col items-center justify-center fixed z-29 top-0 right-0 w-full h-screen space-y-6 text-white bg-[#1C2430] transform transition-transform duration-500 ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-                {navLinks.map((link, index) => (
-                    <li key={index} className="flex flex-col items-center">
+                {navLinks.map((link) => (
+                    <li key={link.id} className="flex flex-col items-center">
                         <Link
                             to={link.href}
                             onClick={() => setMenuOpen(false)}

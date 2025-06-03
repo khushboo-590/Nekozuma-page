@@ -1,48 +1,34 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
-import { images1, images2 } from '../utils/helper';
 
-const Silder = () => {
+import React from "react";
+import { images1,images2} from "../utils/helper";
+
+const Slider = () => {
     return (
-        <section className="bg-[#1C2430] mx-auto ">
-            <Swiper
-                modules={[Autoplay]}
-                spaceBetween={0}
-                slidesPerView={5}
-                loop={true}
-                autoplay={{
-                    delay: 0,
-                    disableOnInteraction: false,
-                    reverseDirection: false,
-                }}
-                speed={5000}>
-                {images1.map((img, i) => (
-                    <SwiperSlide key={i}>
-                        <img src={img} alt="silder"  />
-                    </SwiperSlide>
+        <section id="overview">
+        <div className="overflow-hidden mx-auto max-w-[1920px]">
+            <div className="flex slider-left">
+                {images1.map((src, index) => (
+                    <img
+                        key={index}
+                        src={src}
+                        alt="silder"
+                        className="pointer-events-none  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"
+                    />
                 ))}
-            </Swiper>
-            <Swiper
-                modules={[Autoplay]}
-                spaceBetween={0}
-                slidesPerView={5}
-                loop={true}
-                autoplay={{
-                    delay: 0,
-                    disableOnInteraction: false,
-                    reverseDirection: true,
-                }}
-                speed={5000}>
-                {images2.map((img, i) => (
-                    <SwiperSlide key={i}>
-                        <img src={img} alt="silder" />
-                    </SwiperSlide>
+            </div>
+            <div className="flex slider-right">
+                {images2.map((src, index) => (
+                    <img
+                        key={index}
+                        src={src}
+                        alt="silder"
+                className="pointer-events-none  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"
+                    />
                 ))}
-            </Swiper>
+            </div>
+            </div>
         </section>
     );
 };
 
-export default Silder;
+export default Slider;

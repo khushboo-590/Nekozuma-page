@@ -12,4 +12,35 @@
 .ff-1 {
   font-family: 'Franklin Gothic Heavy';
 }
+html {
+  scroll-behavior: smooth;
+}
 
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.slider-left {
+  animation: scrollLeft 18s linear infinite;
+  display: flex;
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slider-right {
+  animation: scrollRight 18s linear infinite;
+}
