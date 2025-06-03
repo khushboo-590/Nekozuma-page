@@ -13,9 +13,6 @@
   font-family: 'Franklin Gothic Heavy';
 }
 
-
-
-
 @keyframes scrollLeft {
   from {
     transform: translateX(0);

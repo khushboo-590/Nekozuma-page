@@ -7,7 +7,7 @@ const Story = () => {
         <section id="story" className="bg-[#1C2430] text-white pt-12">
             <div className="max-w-[1140px] mx-auto px-4">
                 <div className="flex justify-center items-center ">
-                    <Customheading heading="Story"/>
+                    <Customheading heading="Story" />
                 </div>
                 <div className="max-w-[888px] mx-auto pt-6">
                     <p className="text-center text-[#D4E5FF] ff-2 text-base leading-[21px] ">
@@ -22,9 +22,9 @@ const Story = () => {
                     </p>
                 </div>
             </div>
-                <div className="flex  justify-center mt-[58px]">
-                    <img src={lionImg} className="w-full  object-cover h-[200px] md:h-[250px] lg:h-[357px]" alt="lion-img" />
-                </div>
+            <div className="flex  justify-center mt-[58px]">
+                <img src={lionImg} className="w-full  object-cover h-[200px] md:h-[250px] lg:h-[357px]" alt="lion-img" />
+            </div>
         </section>
     );
 };

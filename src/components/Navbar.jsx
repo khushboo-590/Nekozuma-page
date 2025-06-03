@@ -24,8 +24,7 @@ const Navbar = () => {
                                 {link.label}
                             </a>
                             <a href="/">
-                                <img src={link.icon} className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"/></a>
-                        </li>
+                                <img src={link.icon} className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a></li>
                     ))}
                 </div>
                 <div onClick={toggleNavbar} className="md:hidden cursor-pointer z-30 flex flex-col gap-1">
@@ -46,11 +45,8 @@ const Navbar = () => {
                             onClick={() => setMenuOpen(false)}
                             className="no-underline ff-2 font-normal text-[16px] leading-[21px] text-white">{link.label}</a>
                         <a href="/"><img
-                                src={link.icon}
-                                className="mt-2 transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"
-                            />
-                        </a>
-                    </li>
+                            src={link.icon}
+                            className="mt-2 transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a></li>
                 ))}
             </div>
         </nav>
