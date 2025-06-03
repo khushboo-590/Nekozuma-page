@@ -12,8 +12,7 @@ const Slider = () => {
                         key={index}
                         src={src}
                         alt="silder"
-                        className="pointer-events-none  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"
-                    />
+                        className="  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"/>
                 ))}
             </div>
             <div className="flex slider-right">
@@ -22,8 +21,7 @@ const Slider = () => {
                         key={index}
                         src={src}
                         alt="silder"
-                className="pointer-events-none  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"
-                    />
+                className="  w-[220px] sm:w-[320px]  h-[220px] sm:h-[320px] object-cover"/>
                 ))}
             </div>
             </div>

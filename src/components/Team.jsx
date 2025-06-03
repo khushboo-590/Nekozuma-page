@@ -1,6 +1,5 @@
 import React from 'react'
 import { TeamData } from '../utils/helper'
-import { Link } from 'react-router-dom';
 import line2 from '../assets/images/svg/Line 2.svg' 
 import Customheading from './common/Customheading';
 
@@ -24,7 +23,9 @@ const Team = () => {
                                       {item.content}</p>
                                   <p className="text-[14px] leading-[18px] text-[#D4E5FF] font-normal mb-2 ff-2  max-w-[202px] mx-auto">
                                       {item.discription}</p>
-                                 <Link to ="/" ><img src={item.icon} alt="social" className="mx-auto cursor-pointer" /></Link>
+                                  <a href="https://twitter.com/YOUR_TWITTER_HANDLE"
+                                      target="_blank"
+                                      rel="noopener noreferrer" ><img src={item.icon} alt="social" className="mx-auto  transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a>
                               </div>
                           </div>
                       ))}
