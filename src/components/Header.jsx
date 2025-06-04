@@ -20,15 +20,14 @@ const Header = () => {
                         <li key={index} className="flex items-center flex-col md:flex-row gap-2">
                             <a href={obj.link}
                                 onClick={() => setMenuOpen(false)}
-                                className="font-sarabun font-normal text-[16px] leading-[21px] text-white hover:text-[#3586FF] transition-colors duration-300">
+                                className="font-family-sarabun font-normal text-[16px] leading-[21px] text-white hover:text-[#3586FF] transition-colors duration-300">
                                 {obj.title}
                             </a>
                             <a href={obj.link}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <img src={obj.icon}
-                                    className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a>          </li>
-                    ))}
+                                    className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer" /></a></li>))}
                 </ul>
                 <div onClick={toggleNavbar} className="md:hidden cursor-pointer z-50 flex flex-col gap-1">
                     <span className={`bg-white block w-6 h-1 transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[8px]" : ""}`}
