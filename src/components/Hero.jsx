@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <section className='bg-[#1C2430]   text-white'>
             <div class="relative mx-auto  max-w-[1920px] overflow-hidden w-full ">
-                <img src={logo} className="absolute  object-cover  w-full max-w-[200px] max-h-[150px] lg:max-h-[180px] xl:max-h-[253px] lg:max-w-[300px] xl:max-w-[420px]  start-0 top-0 " alt="nav-bg-img" />
+                <img src={logo} className="absolute  object-cover  w-full max-w-[200px] max-h-[150px] lg:max-w-[300px] xl:max-w-[560px]  start-0 top-0 " alt="nav-bg-img" />
                 <div className="max-w-[888px] mx-auto px-4">
                     <Header/>
                     <div className="mt-[80px] md:mt-[120px] lg:mt-[164px] z-10 relative">
