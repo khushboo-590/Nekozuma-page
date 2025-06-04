@@ -83,10 +83,10 @@ export const teamData = [
 ]
 
 export const navLinks = [
-    { id: 'overview', title: 'Overview', href: '#overview' },
-    { id: 'story', title: 'Story', href: '#story' },
-    { id: 'team', title: 'Team', href: '#team' },
-    { id: 'discord', icon: DiscordIcon, href: 'https://discord.com' },
-    { id: 'twitter', icon: twitterIcon, href: 'https://twitter.com' },
+    {  title: 'Overview', href: '#overview' },
+    {  title: 'Story', href: '#story' },
+    {  title: 'Team', href: '#team' },
+    {  icon: DiscordIcon, href: 'https://discord.com' },
+    {  icon: twitterIcon, href: 'https://twitter.com' },
 ];
   

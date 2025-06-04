@@ -16,8 +16,8 @@ const Header = () => {
                 <ul className={`${menuOpen
                         ? "md:hidden flex flex-col items-center justify-center fixed z-50 top-0 right-0 w-full h-screen gap-4 text-white bg-[#1C2430] transition-transform duration-500"
                         : "hidden md:flex items-center gap-8 m-0 list-none justify-center"}`}>
-                    {navLinks.map((link) => (
-                        <li key={link.id} className="flex items-center flex-col md:flex-row gap-2">
+                    {navLinks.map((link,index) => (
+                        <li key={index} className="flex items-center flex-col md:flex-row gap-2">
                             {link.title && (
                                 <a
                                     href={link.href}
