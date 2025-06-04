@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CustomHeading = ({ title, myClass }) => {
   return (
     <div>

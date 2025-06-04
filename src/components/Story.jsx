@@ -1,12 +1,11 @@
 import React from 'react';
 import lionImg from '../assets/images/png/cartoon2.png';
-import CustomHeading from '../components/common/CustomHeading';
+import CustomHeading from './common/CustomHeading';
 
 const Story = () => {
     return (
         <div id="story" className="bg-[#1C2430] text-white pt-8 lg:pt-12">
             <div className="max-w-[1920px] mx-auto ">
-                {/* <CustomHeading title="Story" myClass="text-center" /> */}
                 <CustomHeading title={"Story"} myClass={"text-center"}/>
                 <div className="max-w-[888px] mx-auto pt-6 text-center text-[#D4E5FF] font-family-sarabun p-1">
                     <p className="text-base leading-[21px]">
