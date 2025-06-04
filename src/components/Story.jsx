@@ -1,6 +1,6 @@
 import React from 'react';
 import lionImg from '../assets/images/png/cartoon2.png';
-import CustomHeading from './common/CustomHeading';
+import CustomHeading from '../components/common/CustomHeading';
 
 const Story = () => {
     return (
