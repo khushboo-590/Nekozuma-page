@@ -1,7 +1,7 @@
 import React from 'react'
 import { teamData, twitter } from '../utils/helper'
 import line1 from '../assets/images/svg/line2.svg'
-import CustomHeading from './common/CustomHeading'
+import CustomHeading from '../components/common/CustomHeading'
 
 const Team = () => {
     return (
