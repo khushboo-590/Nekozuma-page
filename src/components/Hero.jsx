@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <section className='bg-[#1C2430]   text-white'>
             <div class="relative mx-auto  max-w-[1920px] overflow-hidden ">
-                <img src={logo} className="absolute  object-cover  w-full max-w-[300px] lg:max-w-[450px]  start-0 top-0" alt="nav-bg-img" />
+                <img src={logo} className="absolute  object-cover  w-full max-w-[280px] lg:max-w-[450px] xl:max-w-[610px]  start-0 top-0" alt="nav-bg-img" />
                 <div className="max-w-[888px] mx-auto px-4">
                     <Header/>
                     <div className="mt-[80px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
@@ -21,7 +21,7 @@ const Hero = () => {
                         <p className="lg:max-w-[502px] font-family-sarabun font-normal text-base leading-[21px] text-[#D4E5FF] pt-1 m-0 text-center lg:text-left">
                             The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force against the anime meta of collections with undoxxed teams and is therefore backed by the team at Nubbies NFT & Karmic Labs.</p>
                         <div className="flex justify-center lg:justify-start">
-                            <button className="mt-[43px] mb-[40px] lg:mb-[144px] bg-[#245AAB] text-white font-family-sarabun font-normal text-base leading-[21px] border-0 py-2 px-6 rounded-[9px] hover:bg-white hover:text-[#245AAB]">
+                            <button className="mt-[43px] mb-[40px] lg:mb-[144px] bg-[#245AAB] text-white font-family-sarabun font-normal text-base leading-[21px] border-0 py-2 px-6 rounded-[9px] hover:bg-white hover:text-[#245AAB] cursor-pointer">
                                 Connect Wallet
                             </button>
                         </div>

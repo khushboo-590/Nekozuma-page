@@ -3,7 +3,6 @@ import { teamData,twitter } from '../utils/helper'
 import line1 from '../assets/images/svg/line2.svg'
 import Customheading from './common/Customheading';
 
-
 const Team = () => {
     return (
         <section id="team" className='bg-[#1C2430]'>

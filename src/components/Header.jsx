@@ -10,7 +10,7 @@ const Header = () => {
         document.body.classList.toggle("overflow-hidden", !menuOpen);
     };
     return (
-        <nav className="w-full py-[12px] md:py-[30px] px-4 md:px-10">
+        <nav className="w-full  py-[8px] md:py-[20px] lg:py-[30px] px-4 md:px-10">
             <div className="flex items-center justify-between">
                 <a href="/" ><img src={logo} alt="Nekozuma Logo" className="absolute " /></a>
                 <ul
@@ -34,11 +34,7 @@ const Header = () => {
                                     <img
                                         src={link.icon}
                                         alt="icon"
-                                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"
-                                    />
-                                </a>
-                            )}
-                        </li>
+                                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"/></a>)}</li>
                     ))}
 
                 </ul>
