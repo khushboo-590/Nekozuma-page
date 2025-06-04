@@ -10,14 +10,14 @@ const Team = () => {
                 <div class="flex items-center justify-center flex-col ">
                     <img src={line1} alt="line" className='mb-4 md:mb-8 lg:mb-14'/>
                     <Customheading title="Team" />
-                    <div className="flex flex-wrap justify-center gap-4  mx-auto">
+                    <div className="flex flex-wrap justify-center gap-2 lg:gap-4  mx-auto">
                         {teamData.map((item, index) => (
                             <div key={index} className="p-1 flex-grow-0">
                                 <div className="text-center">
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className="w-[290px] sm:w-[202px] h-[198px] sm:h-[202px] object-cover mx-auto mt-[20px] sm:mt-[36px] pointer-events-none"
+                                        className="w-[290px] sm:w-[202px] h-[198px] sm:h-[202px] object-cover mx-auto mt-[10px] sm:mt-[20px] lg:mt-[36px] pointer-events-none"
                                     />
                                     <h5 className="text-[24px] leading-[27px] text-[#3586FF] font-normal mt-6 mb-2 font-family-franklin">
                                         {item.title}
