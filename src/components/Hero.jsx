@@ -10,11 +10,11 @@ import Header from './Header'
 const Hero = () => {
     return (
         <section className='bg-[#1C2430]   text-white'>
-            <div class="relative mx-auto  max-w-[1920px] overflow-hidden ">
-                <img src={logo} className="absolute  object-cover  w-full max-w-[280px] lg:max-w-[450px] xl:max-w-[610px]  start-0 top-0" alt="nav-bg-img" />
+            <div class="relative mx-auto  max-w-[1920px] overflow-hidden w-full ">
+                <img src={logo} className="absolute  object-cover  w-full max-w-[200px] max-h-[150px] lg:max-h-[180px] xl:max-h-[253px] lg:max-w-[300px] xl:max-w-[420px]  start-0 top-0 " alt="nav-bg-img" />
                 <div className="max-w-[888px] mx-auto px-4">
                     <Header/>
-                    <div className="mt-[80px] sm:mt-[130px] lg:mt-[164px] z-10 relative">
+                    <div className="mt-[80px] md:mt-[120px] lg:mt-[164px] z-10 relative">
                         <div className="flex justify-center lg:justify-start">
                             <img src={line1} alt="line" /></div>
                         <h1 className="font-family-franklin text-[#3586FF] text-[55px] sm:text-[64px] leading-[73px] font-normal  text-center lg:text-left">NEKOZUMA</h1>

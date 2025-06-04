@@ -19,8 +19,7 @@ const Footer = () => {
                     <img
                         src={discordIcon}
                         alt="discord-icon"
-                        className="transform hover:scale-110 transition duration-300 ease-in-out  w-9" />
-                </a>
+                        className="transform hover:scale-110 transition duration-300 ease-in-out  w-9" /></a>
                 <a
                     href="https://twitter.com/YOUR_TWITTER_HANDLE"
                     target="_blank"
@@ -28,9 +27,7 @@ const Footer = () => {
                     <img
                         src={twitterIcon}
                         alt="twitter-icon"
-                        className="transform hover:scale-110 transition duration-500 ease-in-out  w-9"
-                    />
-                </a>
+                        className="transform hover:scale-110 transition duration-500 ease-in-out  w-9"/></a>
             </div>
             <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0 hidden lg:block  pointer-events-none " />
             <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0  hidden lg:block pointer-events-none " />

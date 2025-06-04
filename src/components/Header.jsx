@@ -10,12 +10,12 @@ const Header = () => {
         document.body.classList.toggle("overflow-hidden", !menuOpen);
     };
     return (
-        <nav className="w-full  py-[8px] md:py-[20px] lg:py-[30px] px-4 md:px-10">
-            <div className="flex items-center justify-between">
+        <nav className="w-full  py-[8px] lg:py-[10px]  xl:py-[30px] ">
+            <div className="flex  justify-between">
                 <a href="/" ><img src={logo} alt="Nekozuma Logo" className="absolute " /></a>
                 <ul
                     className={`${menuOpen
-                        ? "md:hidden flex flex-col items-center justify-center fixed z-50 top-0 right-0 w-full h-screen space-y-6 text-white bg-[#1C2430] transition-transform duration-500"
+                        ? "md:hidden flex flex-col items-center justify-center fixed z-50 top-0 right-0 w-full h-screen gap-4 text-white bg-[#1C2430] transition-transform duration-500"
                         : "hidden md:flex items-center gap-8 m-0 list-none justify-center"}`}>
                     {navLinks.map((link) => (
                         <li key={link.id} className="flex items-center flex-col md:flex-row gap-2">
@@ -29,14 +29,11 @@ const Header = () => {
                                 <a
                                     href={link.href}
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                >
+                                    rel="noopener noreferrer">
                                     <img
                                         src={link.icon}
                                         alt="icon"
-                                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"/></a>)}</li>
-                    ))}
-
+                                        className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"/></a>)}</li>))}
                 </ul>
                 <div onClick={toggleNavbar} className="md:hidden cursor-pointer z-50 flex flex-col gap-1">
                     <span className={`bg-white block w-6 h-1 transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[8px]" : ""}`}

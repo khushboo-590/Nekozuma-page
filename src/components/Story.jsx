@@ -17,7 +17,6 @@ const Story = () => {
                 <img src={lionImg} className="w-full  object-cover h-[200px] md:h-[250px] lg:h-[357px] pointer-events-none" alt="lion-img" />
                 </div>
             </div>
-
         </section>
     );
 };
