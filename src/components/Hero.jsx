@@ -10,7 +10,7 @@ import Header from './Header'
 const Hero = () => {
     return (
         <section className='bg-[#1C2430]   text-white'>
-            <div className="relative mx-auto  max-w-[1920px] overflow-hidden w-full ">
+            <div className="relative mx-auto  max-w-[1920px] overflow-hidden w-full">
                 <img src={logo} className="absolute  object-cover pointer-events-none w-full max-w-[200px] max-h-[150px] lg:max-w-[300px] xl:max-w-[570px]  start-0 top-0 whitespace-nowrap " alt="nav-bg-img" />
                 <div className="max-w-[888px] mx-auto px-4">
                     <Header/>

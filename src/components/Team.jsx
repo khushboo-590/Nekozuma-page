@@ -6,13 +6,13 @@ import CustomHeading from './common/CustomHeading';
 const Team = () => {
     return (
         <div id="team" className='bg-[#1C2430]'>
-            <div className="container mx-auto py-[30px] lg:py-[61px] max-w-[888px] ">
+            <div className="container mx-auto py-[30px] lg:py-[61px] max-w-[888px]">
                 <div className="flex items-center justify-center flex-col ">
-                    <img src={line1} alt="line" className='mb-4 md:mb-8 lg:mb-14' />
+                    <img src={line1} alt="line" className='mb-4 md:mb-8 lg:mb-14'/>
                     <CustomHeading title="Team" />
-                    <div className="flex flex-wrap justify-center gap-2 lg:gap-4  mx-auto">
+                    <div className="flex flex-wrap justify-center gap-2 lg:gap-4 mx-auto">
                         {teamData.map((item, index) => (
-                            <div key={index} className="p-1 flex-grow-0">
+                            <div key={index} className="p-1">
                                 <div className="text-center">
                                     <img
                                         src={item.image}
