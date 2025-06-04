@@ -1,12 +1,12 @@
 import React from 'react';
 import lionImg from '../assets/images/png/cartoon2.png';
-import Heading from './common/Heading';
+import CustomHeading from './common/CustomHeading';
 
 const Story = () => {
     return (
         <div id="story" className="bg-[#1C2430] text-white pt-8 lg:pt-12">
             <div className="max-w-[1920px] mx-auto ">
-                <Heading title={"Story"} myClass={"text-center"}/>
+                <CustomHeading title={"Story"} myClass={"text-center"}/>
                 <div className="max-w-[888px] mx-auto pt-6 text-center text-[#D4E5FF] font-family-sarabun p-1">
                     <p className="text-base leading-[21px]">
                         Nekozuma which means lightning cats in Japanese (Neko = Cats // Inazuma = Lightning) is a collection of 5555 NFTs on the Solana blockchain. The story centers around 3 eras of cats living in different timelines - past, present, future. In each timeline, there are 3 deities that are all powerful and are meant to protect the world of Nekos.</p>
