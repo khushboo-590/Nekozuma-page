@@ -10,11 +10,10 @@ const Header = () => {
         document.body.classList.toggle("overflow-hidden", !menuOpen);
     };
     return (
-        <nav className="w-full  py-[10px] lg:py-[20px]  xl:py-[48px] ">
+        <nav className="w-full  py-[10px] lg:py-[20px]  xl:py-[44px] ">
             <div className="flex  justify-between">
                 <a href="/" ><img src={logo} alt="Nekozuma Logo" className="absolute " /></a>
-                <ul
-                    className={`${menuOpen
+                <ul className={`${menuOpen
                         ? "md:hidden flex flex-col items-center justify-center fixed z-50 top-0 right-0 w-full h-screen gap-4 text-white bg-[#1C2430] transition-transform duration-500"
                         : "hidden md:flex items-center gap-8 m-0 list-none justify-center"}`}>
                     {navLinks.map((link) => (
