@@ -7,19 +7,19 @@ import teamImg6 from '../assets/images/png/teamimg6.png'
 import teamImg7 from '../assets/images/png/teamimg7.png'
 import teamImg8 from '../assets/images/png/teamimg8.png'
 import twitterIcon from '../assets/images/svg/tw.svg'
-import silder1 from '../assets/images/png/silde1.png'
-import silder2 from '../assets/images/png/silder2.png'
-import silder3 from '../assets/images/png/silder3.png'
-import silder4 from '../assets/images/png/silder4.png'
-import silder5 from '../assets/images/png/silder5.png'
-import silder6 from '../assets/images/png/silder6.png'
-import silder7 from '../assets/images/png/silder6.png'
-import silder8 from '../assets/images/png/silder8.png'
-import DiscordIcon from '../assets/images/svg/discord 1.svg';
+import silderImg1 from '../assets/images/png/silde1.png'
+import silderImg2 from '../assets/images/png/silder2.png'
+import silderImg3 from '../assets/images/png/silder3.png'
+import silderImg4 from '../assets/images/png/silder4.png'
+import silderImg5 from '../assets/images/png/silder5.png'
+import silderImg6 from '../assets/images/png/silder6.png'
+import silderImg7 from '../assets/images/png/silder6.png'
+import silderImg8 from '../assets/images/png/silder8.png'
+import discordIcon from '../assets/images/svg/discord 1.svg';
 
 
-export const sildeImg1 = [silder1, silder2, silder3, silder4, silder3, silder4, silder1, silder2, silder4, silder3,];
-export const sildeImg2 = [silder5, silder6, silder7, silder8, silder6, silder7, silder5, silder8, silder6, silder7,];
+export const sildeImg1 = [silderImg1, silderImg2, silderImg3, silderImg4, silderImg3, silderImg4, silderImg1, silderImg2, silderImg4, silderImg3,];
+export const sildeImg2 = [silderImg5, silderImg6, silderImg7, silderImg8, silderImg6, silderImg7, silderImg5, silderImg8, silderImg6, silderImg7,];
 
 export const twitter = twitterIcon;
 
@@ -83,10 +83,10 @@ export const teamData = [
 ]
 
 export const navLinks = [
-    {  title: 'Overview', href: '#overview' },
-    {  title: 'Story', href: '#story' },
-    {  title: 'Team', href: '#team' },
-    {  icon: DiscordIcon, href: 'https://discord.com' },
-    {  icon: twitterIcon, href: 'https://twitter.com' },
+    {  title: 'Overview', link: '#overview' },
+    { title: 'Story', link: '#story' },
+    { title: 'Team', link: '#team' },
+    { icon: discordIcon, link: 'https://discord.com' },
+    { icon: twitterIcon, link: 'https://twitter.com' },
 ];
   

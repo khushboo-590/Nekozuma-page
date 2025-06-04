@@ -6,7 +6,7 @@ import twitterIcon from '../assets/images/svg/tw.svg'
 
 const Footer = () => {
     return (
-        <footer id="discord" className=" bg-[#1C2430]  ">
+        <div id="discord" className=" bg-[#1C2430]  ">
             <div className=' max-w-[1920px] mx-auto bg-[#245AAB] relative  py-[26px] lg:py-[46px]'>
             <div className="flex justify-center items-center ">
                 <a href="/" className="font-family-franklin fw-400 text-[21px] leading-[25px] text-white tracking-wide  no-underline z-10">
@@ -32,7 +32,7 @@ const Footer = () => {
             <img src={footerlayer1} alt="footer-layer-left" className="absolute bottom-0 left-0 hidden lg:block  pointer-events-none " />
             <img src={footerlayer2} alt="footer-layer-right" className="absolute bottom-0 right-0  hidden lg:block pointer-events-none " />
             </div>
-        </footer>
+        </div>
     )
 }
 

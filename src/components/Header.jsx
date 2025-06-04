@@ -10,27 +10,27 @@ const Header = () => {
         document.body.classList.toggle("overflow-hidden", !menuOpen);
     };
     return (
-        <nav className="w-full  py-[10px] lg:py-[20px]  xl:py-[44px] ">
+        <div className="w-full  py-[10px] lg:py-[20px]  xl:py-[44px] ">
             <div className="flex  justify-between">
-                <a href="/" ><img src={logo} alt="Nekozuma Logo" className="absolute " /></a>
+                <a href="/" ><img src={logo} alt="Nekozuma Logo  pointer-events-none" className="absolute " /></a>
                 <ul className={`${menuOpen
                         ? "md:hidden flex flex-col items-center justify-center fixed z-50 top-0 right-0 w-full h-screen gap-4 text-white bg-[#1C2430] transition-transform duration-500"
                         : "hidden md:flex items-center gap-8 m-0 list-none justify-center"}`}>
-                    {navLinks.map((link,index) => (
+                    {navLinks.map((obj,index) => (
                         <li key={index} className="flex items-center flex-col md:flex-row gap-2">
-                            {link.title && (
+                            {obj.title && (
                                 <a
-                                    href={link.href}
+                                    href={obj.link}
                                     onClick={() => setMenuOpen(false)}
                                     className="font-sarabun font-normal text-[16px] leading-[21px] text-white hover:text-[#3586FF] transition-colors duration-300">
-                                    {link.title}</a>)}
-                            {link.icon && (
+                                    {obj.title}</a>)}
+                            {obj.icon && (
                                 <a
-                                    href={link.href}
+                                    href={obj.link}
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     <img
-                                        src={link.icon}
+                                        src={obj.icon}
                                         alt="icon"
                                         className="transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer"/></a>)}</li>))}
                 </ul>
@@ -43,7 +43,7 @@ const Header = () => {
                     ></span>
                 </div>
             </div>
-        </nav>
+        </div>
     );
 };
 

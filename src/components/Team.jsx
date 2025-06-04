@@ -1,15 +1,15 @@
 import React from 'react'
 import { teamData, twitter } from '../utils/helper'
 import line1 from '../assets/images/svg/line2.svg'
-import Customheading from './common/Customheading';
+import CustomHeading from './common/CustomHeading';
 
 const Team = () => {
     return (
-        <section id="team" className='bg-[#1C2430]'>
-            <div class="container mx-auto py-[30px] lg:py-[61px] max-w-[888px] ">
-                <div class="flex items-center justify-center flex-col ">
+        <div id="team" className='bg-[#1C2430]'>
+            <div className="container mx-auto py-[30px] lg:py-[61px] max-w-[888px] ">
+                <div className="flex items-center justify-center flex-col ">
                     <img src={line1} alt="line" className='mb-4 md:mb-8 lg:mb-14' />
-                    <Customheading title="Team" />
+                    <CustomHeading title="Team" />
                     <div className="flex flex-wrap justify-center gap-2 lg:gap-4  mx-auto">
                         {teamData.map((item, index) => (
                             <div key={index} className="p-1 flex-grow-0">
@@ -31,7 +31,7 @@ const Team = () => {
                                         <img
                                             src={twitter}
                                             alt="social"
-                                            className="mx-auto transform hover:scale-110 transition duration-500 ease-in-out"/></a></div>
+                                            className="mx-auto transform hover:scale-110 transition duration-500 ease-in-out" /></a></div>
                             </div>
                         ))}
                     </div>
@@ -39,7 +39,7 @@ const Team = () => {
                 </div>
             </div>
 
-        </section>
+        </div>
     )
 }
 
