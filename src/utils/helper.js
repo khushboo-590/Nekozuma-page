@@ -28,56 +28,56 @@ export const teamData = [
         title: "Founder",
         content: "Jedi Trinupab ",
         image: teamImg1,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Co Founder",
         content: "Suptoshi",
         image: teamImg2,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Artist",
         content: "Korn",
         image: teamImg3,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Development",
         content: "Karmic Labs ",
         image: teamImg4,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
         image: teamImg5,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
         image: teamImg6,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
         image: teamImg7,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
     {
         title: "Position",
         content: "Jedi Trinupab ",
         image: teamImg8,
-        discription: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
+        description: "However at every junction in time, there is always a darkness that is waiting to overthrow ",
 
     },
 ]
