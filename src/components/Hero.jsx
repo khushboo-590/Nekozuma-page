@@ -3,6 +3,7 @@ import line1 from '../assets/images/svg/line2.svg'
 import cartoon from '../assets/images/png/cartoon.png'
 import logo from '../assets/images/png/logo-bg.png'
 import layer1 from '../assets/images/png/layer1.png'
+import rectangleImage from'../assets/images/png/rectangleImage.png'
 import layer2 from '../assets/images/png/layer2.png'
 import Header from './Header'
 
@@ -28,6 +29,7 @@ const Hero = () => {
                 </div>
                 <img src={cartoon} className="z-10 relative cartoon-img right-0 bottom-0 lg:absolute mx-auto pointer-events-none" alt="cartoon-img" />
                 <img src={layer1} className="absolute left-0 bottom-0 hidden lg:block pointer-events-none" alt="light-img" />
+                <img src={rectangleImage} className="absolute right-0 bottom-0  hidden lg:block pointer-events-none" alt="light-2-img" />
                 <img src={layer2} className="absolute z-20 right-0 bottom-0 hidden lg:block pointer-events-none" alt="rectangle" />
             </div>
         </section>
