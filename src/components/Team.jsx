@@ -10,7 +10,7 @@ const Team = () => {
                 <div className="flex items-center justify-center flex-col ">
                     <img src={line1} alt="line" className='mb-4 md:mb-8 lg:mb-14'/>
                     {/* <CustomHeading title="Team"/> */}
-                    <CustomHeading title={"team"}/>
+                    <CustomHeading title={"team"} myClass={""}/>
                     <div className="flex flex-wrap justify-center gap-2 lg:gap-4 mx-auto">
                         {teamData.map((item, index) => (
                             <div key={index} className="p-1">
