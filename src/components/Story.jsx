@@ -13,8 +13,7 @@ const Story = () => {
                     <p className="text-sm leading-[18px]  mt-3 sm:mt-6 lg:mt-9">
                         However at every junction in time, there is always a darkness that is waiting to overthrow the good. Hence, each timeline has its own arch nemesis. This means that there will be a total of 4 godly nekos from each timeline making a total of 12 godly nekos that will be fully animated.</p></div>
                 <div className="  mt-[30px] lg:mt-[58px]">
-                    <img src={lionImg} className="w-full object-cover h-[200px] md:h-[250px] lg:h-[357px] pointer-events-none" alt="lion-img" />
-                </div>
+                    <img src={lionImg} className="w-full object-cover h-[200px] md:h-[250px] lg:h-[357px] pointer-events-none" alt="lion-img" /></div>
             </div>
         </div>
     );
